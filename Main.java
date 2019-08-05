@@ -45,7 +45,7 @@ public class Main {
 
         //вычисляем площадь круга
         //вот тут у нас явно напрашивается запилить этот код в функцию, вычисляющую квадрат
-        square = 3.14 * calculateSquare(radius);
+        square = Math.PI * calculateSquare(radius);
 
         //выводим на экран площадь круга
         System.out.printf("Площадь круга: %f \n", square);
